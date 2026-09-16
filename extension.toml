@@ -1,0 +1,7 @@
+id = "jamms-theme"
+name = "jamms"
+version = "0.1.0"
+schema_version = 1
+authors = ["jamms"]
+description = "A loud, high-energy light and dark theme for Zed built around the jamms neon palette."
+repository = "https://github.com/fruitjamms/jamms-theme"
