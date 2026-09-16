@@ -32,18 +32,6 @@ for automatic system switching, add this to zed's `settings.json`:
 }
 ```
 
-## light mode color strategy
-
-the light theme deliberately uses the original neon lime and green at full intensity for
-highlights, selections, borders, and accent surfaces.
-
-for syntax text on white, it uses brighter "ink" variants of those same hues:
-- lime ink: `#8aa100`
-- green ink: `#00a95e`
-
-this keeps the light mode much more neon while preventing the palest colors from disappearing
-completely against white.
-
 ## repository
 
 https://github.com/fruitjamms/jamms-theme
