@@ -1,49 +1,49 @@
-# Jamms for Zed
+# jamms for zed
 
-A two-mode Zed theme using the Jamms palette:
+a two-mode zed theme using the jamms palette:
 
-- Pink: `#FF29A7`
-- Orange: `#FF9E28`
-- Lime: `#DDFF00`
-- Green: `#21FF8C`
-- Blue: `#3138FF`
-- Light background: `#FFFFFF`
-- Dark background: `#000000`
+- pink: `#ff29a7`
+- orange: `#ff9e28`
+- lime: `#ddff00`
+- green: `#21ff8c`
+- blue: `#3138ff`
+- light background: `#ffffff`
+- dark background: `#000000`
 
-## Install as a Dev Extension
+## install as a dev extension
 
-1. Unzip this folder somewhere permanent.
-2. Open Zed.
-3. Open the Command Palette.
-4. Run **`zed: install dev extension`**.
-5. Select the **`jamms-theme`** folder — the folder containing `extension.toml`.
-6. Open the Theme Selector with **Cmd-K Cmd-T** on macOS or **Ctrl-K Ctrl-T** elsewhere.
-7. Choose **Jamms Light** or **Jamms Dark**.
+1. unzip this folder somewhere permanent.
+2. open zed.
+3. open the command palette.
+4. run **`zed: install dev extension`**.
+5. select the **`jamms-theme`** folder — the folder containing `extension.toml`.
+6. open the theme selector with **cmd-k cmd-t** on macos or **ctrl-k ctrl-t** elsewhere.
+7. choose **jamms light** or **jamms dark**.
 
-For automatic system switching, add this to Zed's `settings.json`:
+for automatic system switching, add this to zed's `settings.json`:
 
 ```json
 {
   "theme": {
     "mode": "system",
-    "light": "Jamms Light",
-    "dark": "Jamms Dark"
+    "light": "jamms light",
+    "dark": "jamms dark"
   }
 }
 ```
 
-## Light Mode Color Strategy
+## light mode color strategy
 
-The light theme deliberately uses the original neon lime and green at full intensity for
+the light theme deliberately uses the original neon lime and green at full intensity for
 highlights, selections, borders, and accent surfaces.
 
-For syntax text on white, it uses brighter "ink" variants of those same hues:
-- Lime ink: `#8AA100`
-- Green ink: `#00A95E`
+for syntax text on white, it uses brighter "ink" variants of those same hues:
+- lime ink: `#8aa100`
+- green ink: `#00a95e`
 
-This keeps the light mode much more neon while preventing the palest colors from disappearing
+this keeps the light mode much more neon while preventing the palest colors from disappearing
 completely against white.
 
-## Repository
+## repository
 
 https://github.com/fruitjamms/jamms-theme
